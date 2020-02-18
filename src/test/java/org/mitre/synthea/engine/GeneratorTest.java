@@ -93,6 +93,7 @@ public class GeneratorTest {
     for (int i = 0; i < numberOfPeople; i++) {
       Person p = generator.generatePerson(i);
       assertEquals("Massachusetts", p.attributes.get(Person.STATE));
+      //change for commit to test travis
     }
   }
   
